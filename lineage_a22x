@@ -17,3 +17,10 @@ PRODUCT_DEVICE := a22lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := samsung a22x
 PRODUCT_MANUFACTURER := samsung
+
+
+ifneq ($(SIGN_BUILD),true)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+        BUILD_FINGERPRINT=google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keyss \
+        PRIVATE_BUILD_DESC="msi-user 11 RQ3A.210905.001 release-keys"
+endif
