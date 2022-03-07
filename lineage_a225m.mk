@@ -12,10 +12,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a22x
-PRODUCT_DEVICE := a22lte
+PRODUCT_NAME := lineage_a225m
+PRODUCT_DEVICE := a225m
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := samsung a22x
+PRODUCT_MODEL := samsung a225m
 PRODUCT_MANUFACTURER := samsung
 
 
